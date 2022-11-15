@@ -162,7 +162,7 @@ public class CaseStudyOne
 	public static void main(String[] args) throws InterruptedException 
 	{
 		// TODO Auto-generated method stub
-		System.out.println("Using GitDemoCopy Branch");
+		System.out.println("Remove this change from GitDemoCopy branch");
 		System.out.println("Architect from IST pushed this code"); //GITHUB training
 		CaseStudyOne methodTest = new CaseStudyOne();
 		methodTest.setupBrowser("chrome", "https://www.edureka.co/", 98);
