@@ -24,11 +24,11 @@ public class CaseStudyOne
 		String currDir = System.getProperty("user.dir");
 				if(browser.equalsIgnoreCase("chrome"))
 				{
-					System.out.println("Using chrome browser"); //This is just to show changes made to the GITHUB
-					//Now the developer will start from here
+					System.out.println("Using chrome browser"); //This is just to show changes made to the GITHUB in USA timezone
+					//Now the developer in Asia will start from here
 					if(browserVersion == 98)
 					{
-						System.out.println("New version of chrome 98");
+						System.out.println("New version of chrome 98"); //Developer in Asia time zone made change
 					//Relative path so in case chromedriver.exe gets moved, it can always be found
 					System.setProperty("webdriver.chrome.driver", currDir + "\\drivers\\chromedriver98.exe"); //Set to default browser version Chrome
 					driver = new ChromeDriver();
