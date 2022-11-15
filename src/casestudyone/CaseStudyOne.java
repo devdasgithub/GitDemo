@@ -24,6 +24,7 @@ public class CaseStudyOne
 		String currDir = System.getProperty("user.dir");
 				if(browser.equalsIgnoreCase("chrome"))
 				{
+					System.out.println("Using chrome browser"); //This is just to show changes made to the GITHUB
 					if(browserVersion == 98)
 					{
 					//Relative path so in case chromedriver.exe gets moved, it can always be found
